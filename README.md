@@ -1,1 +1,3 @@
-mcr.microsoft.com/dotnet/aspnet:6.0 + grpc_probe
+- mcr.microsoft.com/dotnet/aspnet:6.0
+- grpc_health_probe
+- curl
